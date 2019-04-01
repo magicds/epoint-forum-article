@@ -9,6 +9,7 @@ function getArticals() {
 
 module.exports = {
     port: '3004',
+    base:'/article/.vuepress/dist/',
     title: 'article',
     serviceWorker: true,
     lastUpdated: 'Last Updated',
@@ -22,7 +23,8 @@ module.exports = {
                     '/2018/how-to-responsive-web.md'
                 ]
             },
-            '/f9-skin-builder.md'
+            '/2019/f9/skin-change.md',
+            '/2019/f9/skin-builder.md'
         ],
         nav: [{
             text: 'Home',
