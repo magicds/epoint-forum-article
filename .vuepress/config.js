@@ -9,7 +9,7 @@ function getArticals() {
 
 module.exports = {
     port: '3004',
-    base:'/article/.vuepress/dist/',
+    base: '/article/.vuepress/dist/',
     title: 'article',
     serviceWorker: true,
     lastUpdated: 'Last Updated',
