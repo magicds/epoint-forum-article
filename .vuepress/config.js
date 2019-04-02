@@ -19,12 +19,12 @@ module.exports = {
         sidebar: [{
                 title: '响应式网页',
                 children: [
-                    '/2018/about-responsive-web.md',
-                    '/2018/how-to-responsive-web.md'
+                    '/explain/about-responsive-web.md',
+                    '/explain/how-to-responsive-web.md'
                 ]
             },
-            '/2019/f9/skin-change.md',
-            '/2019/f9/skin-builder.md'
+            '/f9/skin-change.md',
+            '/f9/skin-builder.md'
         ],
         nav: [{
             text: 'Home',
