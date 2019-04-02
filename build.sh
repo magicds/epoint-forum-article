@@ -14,10 +14,10 @@ rm -f -r D:/xampp/htdocs/fedemo/pages/forumarticle/*
 cp -r -f docs/.vuepress/dist/* D:/xampp/htdocs/fedemo/pages/forumarticle/
 echo "copy done";
 
-# cd D:/xampp/htdocs/fedemo/pages/
+cd D:/xampp/htdocs/fedemo/pages/
 
-# svn add forumarticle
+svn add forumarticle
 
-# svn commit -m "【来自自动脚本】提交论坛文章更新"
+svn commit -m "【来自自动脚本】提交论坛文章更新"
 
-# echo "commit success"
+echo "commit success"
