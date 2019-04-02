@@ -11,6 +11,9 @@ module.exports = {
     port: '3004',
     base: '/fedemo/pages/forumarticle/',
     title: 'article',
+    head: [
+        ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'ie=edge' }]
+    ],
     serviceWorker: true,
     lastUpdated: 'Last Updated',
     themeConfig: {
