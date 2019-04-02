@@ -3,17 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build ."
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "author": {
     "name": "chends"
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.46",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.46",
-    "@vuepress/plugin-nprogress": "^1.0.0-alpha.46",
-    "vuepress": "^1.0.0-alpha.46"
+    "vuepress": "^0.14.10"
   }
 }

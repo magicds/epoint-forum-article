@@ -7,8 +7,11 @@ set -e
 yarn build
 echo "build done";
 
+# 清空
+rm -f -r D:/xampp/htdocs/fedemo/pages/forumarticle/*
+
 # 拷贝
-cp -r -f .vuepress/dist/* D:/xampp/htdocs/fedemo/pages/forumarticle/
+cp -r -f docs/.vuepress/dist/* D:/xampp/htdocs/fedemo/pages/forumarticle/
 echo "copy done";
 
 # cd D:/xampp/htdocs/fedemo/pages/
