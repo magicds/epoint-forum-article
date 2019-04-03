@@ -8,6 +8,7 @@ function getArticals() {
 
 
 module.exports = {
+    host: '0.0.0.0',
     port: '3004',
     base: '/fedemo/pages/forumarticle/',
     title: 'article',
@@ -29,7 +30,8 @@ module.exports = {
             title: 'F9',
             children: [
                 '/f9/skin-change.md',
-                '/f9/skin-builder.md'
+                '/f9/skin-builder.md',
+                '/f9/fetools.md'
             ]
         }],
         nav: [{
