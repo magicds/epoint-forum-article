@@ -13,7 +13,14 @@ module.exports = {
     base: '/fedemo/pages/forumarticle/',
     title: 'article',
     head: [
-        ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'ie=edge' }]
+        ['meta', {
+            'http-equiv': 'X-UA-Compatible',
+            content: 'ie=edge'
+        }],
+        ['meta', {
+            name: 'icon Shortcut Bookmark',
+            href: '/favicon.ico'
+        }]
     ],
     serviceWorker: true,
     lastUpdated: 'Last Updated',
@@ -42,5 +49,15 @@ module.exports = {
     markdown: {
         lineNumbers: true,
     },
-    // plugins: ['@vuepress/nprogress', '@vuepress/back-to-top', '@vuepress/medium-zoom']
+    plugins: ['@vuepress/nprogress', '@vuepress/back-to-top', '@vuepress/medium-zoom',
+        ['@vssue/vuepress-plugin-vssue', {
+            // set `platform` rather than `api`
+            platform: 'github',
+            // all other options of Vssue are allowed
+            owner: 'cdswyda',
+            repo: 'epoint-forum-article',
+            clientId: '4d0a27bfd5751c5e70a1',
+            clientSecret: '0fc6b91b0e19d10409bf019cb2e6472d45882efc',
+        }]
+    ]
 }
