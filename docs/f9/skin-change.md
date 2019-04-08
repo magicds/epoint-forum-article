@@ -207,3 +207,5 @@ var skinSwitcher = {
 };
 skinSwitcher.init();
 ```
+
+<Vssue title="F9 换肤实现方式优化" />

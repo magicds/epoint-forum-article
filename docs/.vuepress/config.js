@@ -38,7 +38,8 @@ module.exports = {
             children: [
                 '/f9/skin-change.md',
                 '/f9/skin-builder.md',
-                '/f9/fetools.md'
+                '/f9/fetools.md',
+                '/f9/safe-measures.md'
             ]
         }],
         nav: [{
