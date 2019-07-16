@@ -11,10 +11,13 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vssue/vuepress-plugin-vssue": "^0.8.2",
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.46",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.46",
-    "@vuepress/plugin-nprogress": "^1.0.0-alpha.46",
-    "vuepress": "^1.0.0-alpha.46"
+    "@vssue/vuepress-plugin-vssue": "^1.0.2",
+    "@vuepress/plugin-back-to-top": "^1.0.2",
+    "@vuepress/plugin-medium-zoom": "^1.0.2",
+    "@vuepress/plugin-nprogress": "^1.0.2",
+    "vuepress": "^1.0.2"
+  },
+  "dependencies": {
+    "@vssue/api-github-v3": "^1.0.0"
   }
 }
