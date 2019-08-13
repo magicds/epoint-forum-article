@@ -4,5 +4,6 @@
 - [F9 在线换肤工具](./skin-builder.md)
 - [在线工具](./fetools.md)
 - [F9 安全整改相关对比说明](./safe-measures.md)
+- [toolbar overflow 支持](./toolbar-overflow.md)
 
 <Vssue title="F9" />

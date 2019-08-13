@@ -169,6 +169,6 @@ var clearString = Util.htmlEscape(someEvilString);
 总结来说，开发人员应有安全意识，防止注入的核心就是避免直接插入html，非必要的情况下，不要使用html相关方法
 
 - Mustache 模板中，占位符应通常应为 双花括号 而不是 三个花括号 ，三个花括号仅应在这段内容要当成HTML被解析时使用
-- 更新页面局部数据时，如果不需要html，应使用：`innerText` 或 `$.text` 而不是`innerHTML` 或 `$.html`
+- 更新页面局部数据时，如果不需要html，应使用：`innerText` 或 `$.fn.text` 而不是`innerHTML` 或 `$.fn.html`
 
 <Vssue title="F9 安全整改相关对比说明" />
