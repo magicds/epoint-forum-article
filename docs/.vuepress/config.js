@@ -42,6 +42,10 @@ module.exports = {
             {
                 title: 'F9',
                 children: ['/f9/skin-change.md', '/f9/skin-builder.md', '/f9/fetools.md', '/f9/safe-measures.md', '/f9/toolbar-overflow.md']
+            },
+            {
+                title: '工具',
+                children: ['/tools/fe-cli.md']
             }
         ],
         nav: [
